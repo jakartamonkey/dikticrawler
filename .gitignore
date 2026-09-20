@@ -1,11 +1,24 @@
-# built binary
-/pddikti-crawler
+# built binaries
+/jiraimport/jiraimport
+/sekolah-crawler/sekolah-crawler
+/pddikti-crawler/pddikti-crawler
 
-# crawl output / scratch data — never commit results
-testrun/
+# crawl/import output data — never commit results
 *.csv
 *.tsv
 *.log
+*.db
+*.db-shm
+*.db-wal
+*.shards
+kabupaten_master.txt
+detail_done.txt
+done_*.txt
+sample_done.txt
+testrun/
+parts/
+csv/
+by_provinsi/
 
 # macOS
 .DS_Store
