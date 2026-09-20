@@ -1,0 +1,11 @@
+# built binary
+/pddikti-crawler
+
+# crawl output / scratch data — never commit results
+testrun/
+*.csv
+*.tsv
+*.log
+
+# macOS
+.DS_Store
